@@ -1,28 +1,38 @@
+body {
+  background: #ccc
+}
+
 .App {
-  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.header {
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.post {
+  margin: 15px 0;
 }
 
-.App-title {
-  font-size: 1.5em;
+.post__title {
+  margin: 0;
+  padding: 0;
+  color:#333;
+  font-weight: bold;
 }
 
-.App-intro {
-  font-size: large;
+.post__body {
+  font-size: 14px;
+  margin:0;
+  padding: 0;
+  color: #444;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.click {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #4578af;
+  font-weight: bold;
+  font-size: 13px
 }
